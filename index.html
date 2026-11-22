@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>سُفرة | مطعم مشويات وأكل مصري على أصوله</title>
+  <meta name="description" content="مطعم سُفرة: مشويات على الفحم، مقبلات شرقية وحلويات. اطلب أونلاين على واتساب أو احجز ترابيزتك في دقيقة.">
+  <meta name="theme-color" content="#1c1512">
+  <meta property="og:title" content="سُفرة | مشويات وأكل مصري على أصوله">
+  <meta property="og:description" content="اطلب أونلاين أو احجز ترابيزتك في دقيقة.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e0a02b'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%231c1512' font-family='Arial'%3E%D8%B3%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Restaurant","name":"سُفرة","servesCuisine":["مصري","مشويات","شرقي"],
+   "address":{"@type":"PostalAddress","streetAddress":"شارع التسعين الجنوبي","addressLocality":"التجمع الخامس، القاهرة","addressCountry":"EG"},
+   "priceRange":"$$","acceptsReservations":"True"}
+  </script>
+</head>
+<body>
+  <div class="demo-bar" role="note">موقع تجريبي لعرض الأعمال — اسم المطعم والأرقام والآراء نماذج للعرض فقط.</div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="سُفرة - الرئيسية">
+        <span class="logo__mark">س</span>
+        <span class="logo__text">سُفرة<small>مشويات وأكل بيتي</small></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
+        <a href="#home" class="nav__link active">الرئيسية</a>
+        <a href="#menu" class="nav__link">المنيو</a>
+        <a href="#offers" class="nav__link">العروض</a>
+        <a href="#about" class="nav__link">عن سُفرة</a>
+        <a href="#booking" class="nav__link">احجز ترابيزة</a>
+        <a href="#contact" class="nav__link">تواصل معنا</a>
+      </nav>
+      <div class="header__actions">
+        <button class="cart-btn" id="cartOpen" aria-label="سلة الطلبات">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h-2l-1 2h2l3.6 7.6-1.4 2.4c-.5.9.2 2 1.2 2h11v-2h-10.6l1.1-2h7.5c.8 0 1.4-.4 1.7-1l3.6-6.5c.3-.7-.2-1.5-1-1.5h-14.8zm1 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/></svg>
+          <span class="cart-btn__count" id="cartCount">0</span>
+        </button>
+        <a href="#booking" class="btn btn--primary btn--sm hide-sm">احجز دلوقتي</a>
+        <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="eyebrow">🔥 مشويات على الفحم من 2012</span>
+          <h1>أكل بيتي على أصوله..<br><span class="accent">من الفحم لسُفرتك</span></h1>
+          <p class="lead">كفتة وكباب ومشويات متبّلة بخلطتنا، ومقبلات شرقية وحلويات طازة كل يوم. اطلب أونلاين وتوصلك سخنة، أو احجز ترابيزتك في أقل من دقيقة.</p>
+          <div class="hero__cta">
+            <a href="#menu" class="btn btn--primary">اطلب دلوقتي</a>
+            <a href="#booking" class="btn btn--ghost">احجز ترابيزة</a>
+          </div>
+          <ul class="hero__stats">
+            <li><strong>4.8★</strong><span>تقييم العملاء</span></li>
+            <li><strong>+30</strong><span>صنف في المنيو</span></li>
+            <li><strong>45 د</strong><span>متوسط التوصيل</span></li>
+          </ul>
+        </div>
+        <div class="hero__media">
+          <img src="assets/img/hero.jpg" alt="طبق مشويات مشكلة مع صوصات ومقبلات" width="1000" height="1500" fetchpriority="high">
+          <div class="float-card float-card--top"><span>🥩</span><div><strong>مشويات طازة</strong><small>بتتشوى وقت الطلب</small></div></div>
+          <div class="float-card float-card--bottom"><span>🛵</span><div><strong>توصيل مجاني</strong><small>للطلبات فوق 300 ج.م</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+      <div class="container features__grid">
+        <div class="feature reveal"><span class="feature__icon">🌿</span><h3>مكونات طازة</h3><p>لحوم وخضار بتوصلنا كل صبح</p></div>
+        <div class="feature reveal"><span class="feature__icon">🔥</span><h3>على الفحم</h3><p>طعم المشويات الأصلي</p></div>
+        <div class="feature reveal"><span class="feature__icon">🛵</span><h3>توصيل سريع</h3><p>لحد باب البيت في 45 دقيقة</p></div>
+        <div class="feature reveal"><span class="feature__icon">📅</span><h3>حجز سهل</h3><p>احجز ترابيزتك من الموبايل</p></div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">المنيو</span>
+          <h2>اختار اللي نفسك فيه</h2>
+          <p>ضيف الأصناف للسلة واطلبها على واتساب برسالة جاهزة.</p>
+        </div>
+        <div class="menu__controls reveal">
+          <div class="tabs" id="tabs" role="tablist" aria-label="أقسام المنيو"></div>
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 0 1 6.3 12.9l5.4 5.4-1.4 1.4-5.4-5.4A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"/></svg>
+            <input type="search" id="search" placeholder="ابحث عن صنف..." aria-label="ابحث في المنيو">
+          </label>
+        </div>
+        <div class="menu__grid" id="menuGrid" aria-live="polite"></div>
+        <p class="menu__empty" id="menuEmpty" hidden>مفيش أصناف بالاسم ده.. جرّب كلمة تانية.</p>
+      </div>
+    </section>
+
+    <!-- OFFERS -->
+    <section class="section section--dark" id="offers">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">العروض</span>
+          <h2>عروض الأسبوع</h2>
+          <p>وفّر أكتر مع وجبات مجمّعة لكل المناسبات.</p>
+        </div>
+        <div class="offers__grid" id="offersGrid"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__media reveal">
+          <img src="assets/img/interior.jpg" alt="صالة مطعم سُفرة" loading="lazy" width="1000" height="1250">
+          <div class="about__badge"><strong>+12</strong><span>سنة خبرة<br>في المشويات</span></div>
+        </div>
+        <div class="about__text reveal">
+          <span class="eyebrow">عن سُفرة</span>
+          <h2>قعدة حلوة وأكل من القلب</h2>
+          <p>بدأنا بفكرة بسيطة: الأكل اللي بتحبه في البيت، بس على الفحم وبجودة مطعم. كل صنف بيتحضّر طازة يوم بيومه، والتتبيلة سر الشيف من أول يوم.</p>
+          <ul class="checklist">
+            <li>صالة عائلية تكفي 80 فرد وتراس خارجي</li>
+            <li>منطقة لعب للأطفال وأماكن مخصصة للمناسبات</li>
+            <li>باركينج مجاني وواي فاي سريع</li>
+          </ul>
+          <a href="#booking" class="btn btn--primary">احجز قعدتك</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section section--cream" id="gallery">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">من سُفرتنا</span>
+          <h2>صور من المطعم</h2>
+        </div>
+        <div class="gallery">
+          <img class="reveal g-tall" src="assets/img/table.jpg" alt="ترابيزة مجهزة للعشا" loading="lazy">
+          <img class="reveal" src="assets/img/hummus-spread.jpg" alt="حمص وعيش شامي" loading="lazy">
+          <img class="reveal" src="assets/img/coffee.jpg" alt="دلال قهوة عربي" loading="lazy">
+          <img class="reveal g-wide" src="assets/img/platter.jpg" alt="طبق مشكل" loading="lazy">
+          <img class="reveal" src="assets/img/dish.jpg" alt="طبق الشيف" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">آراء العملاء</span>
+          <h2>بيقولوا علينا إيه</h2>
+          <p class="muted">نماذج توضيحية لشكل قسم الآراء.</p>
+        </div>
+        <div class="reviews__grid" id="reviewsGrid"></div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="section booking" id="booking">
+      <div class="container booking__inner">
+        <div class="booking__text reveal">
+          <span class="eyebrow">احجز ترابيزة</span>
+          <h2>ترابيزتك مستنياك</h2>
+          <p>املا البيانات وهيوصلك تأكيد الحجز على واتساب. الحجز مجاني ويتلغي في أي وقت.</p>
+          <ul class="hours" id="hoursList"></ul>
+        </div>
+        <form class="card form reveal" id="bookingForm" novalidate>
+          <div class="form__row">
+            <label>الاسم<input name="name" required minlength="2" autocomplete="name" placeholder="اسمك"></label>
+            <label>رقم الموبايل<input name="phone" required inputmode="tel" autocomplete="tel" placeholder="01xxxxxxxxx" pattern="01[0125][0-9]{8}"></label>
+          </div>
+          <div class="form__row">
+            <label>التاريخ<input name="date" type="date" required></label>
+            <label>الساعة<select name="time" required></select></label>
+          </div>
+          <div class="form__row">
+            <label>عدد الأفراد
+              <div class="stepper"><button type="button" data-step="-1" aria-label="أقل">−</button><input name="guests" type="number" min="1" max="20" value="2" required><button type="button" data-step="1" aria-label="أكتر">+</button></div>
+            </label>
+            <label>المكان
+              <select name="area"><option>الصالة الداخلية</option><option>التراس الخارجي</option><option>ركن العائلات</option></select>
+            </label>
+          </div>
+          <label>ملاحظات (اختياري)<textarea name="notes" rows="2" placeholder="عيد ميلاد، كرسي أطفال..."></textarea></label>
+          <p class="form__error" id="formError" role="alert" hidden></p>
+          <button class="btn btn--primary btn--block" type="submit">تأكيد الحجز</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--cream" id="contact">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <span class="eyebrow">تواصل معنا</span>
+          <h2>هتلاقينا فين؟</h2>
+          <ul class="contact__list">
+            <li><span>📍</span><div><strong>العنوان</strong><p id="addr"></p></div></li>
+            <li><span>📞</span><div><strong>التليفون</strong><p id="phoneText" dir="ltr" style="text-align:right"></p></div></li>
+            <li><span>🛵</span><div><strong>التوصيل</strong><p>لكل مناطق القاهرة الجديدة والرحاب ومدينتي</p></div></li>
+          </ul>
+          <a class="btn btn--whatsapp" id="waContact" target="_blank" rel="noopener">كلّمنا على واتساب</a>
+        </div>
+        <div class="map reveal">
+          <iframe id="mapFrame" title="موقع المطعم على الخريطة" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#home" class="logo logo--light"><span class="logo__mark">س</span><span class="logo__text">سُفرة<small>مشويات وأكل بيتي</small></span></a>
+      <nav class="footer__nav" aria-label="روابط سريعة"><a href="#menu">المنيو</a><a href="#offers">العروض</a><a href="#booking">احجز</a><a href="#contact">تواصل</a></nav>
+      <p class="footer__copy">© <span id="year"></span> سُفرة — موقع تجريبي. تصميم وتطوير: مصطفى طه.</p>
+    </div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="سلة الطلبات" aria-hidden="true">
+    <div class="drawer__head">
+      <h3>طلبك</h3>
+      <button class="icon-btn" id="cartClose" aria-label="إغلاق">✕</button>
+    </div>
+    <div class="drawer__body" id="cartItems"></div>
+    <div class="drawer__foot" id="cartFoot">
+      <div class="totals">
+        <div><span>المجموع</span><span id="subTotal">0 ج.م</span></div>
+        <div><span>التوصيل</span><span id="deliveryFee">0 ج.م</span></div>
+        <div class="totals__grand"><span>الإجمالي</span><span id="grandTotal">0 ج.م</span></div>
+      </div>
+      <label class="drawer__field">العنوان<input id="orderAddress" placeholder="المنطقة، الشارع، رقم العمارة"></label>
+      <button class="btn btn--whatsapp btn--block" id="checkout">اطلب على واتساب</button>
+    </div>
+  </aside>
+
+  <!-- BOOKING CONFIRM MODAL -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__box">
+      <div class="modal__icon">✓</div>
+      <h3 id="modalTitle">تمام، حجزك جاهز!</h3>
+      <p id="modalText"></p>
+      <a class="btn btn--whatsapp btn--block" id="modalWa" target="_blank" rel="noopener">ابعت التأكيد على واتساب</a>
+      <button class="btn btn--ghost-dark btn--block" id="modalClose">رجوع للموقع</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="واتساب">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+  </a>
+  <button class="to-top" id="toTop" aria-label="لفوق">↑</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
